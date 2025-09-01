@@ -1,0 +1,107 @@
+.body{
+  
+  background-color: black;
+}
+        
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 0;
+  padding: 0;}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+  transition: color 0.9s ease;
+  background-color: rgb(30, 30, 30);  
+  padding: 8px 16px;       
+  border-radius: 6px;      
+  transition: all 0.5s ease; 
+} /*Delay
+
+/* Efeito mouse */
+.menu a:hover {
+  background-color: grey;
+  font-size: 30px;
+  color: yellow
+}
+
+.me_photo img {
+        width: 400px; 
+        border: 1px solid white;
+        border-radius: 12px;    
+}
+
+.me_photo {
+        display: block;
+        margin: 20px auto;       
+        text-align: center;}
+
+.port_photo {
+        text-align: center;
+        padding: 40px;
+        border: 1px solid white;      
+}
+
+.forma {color:white;
+        list-style:circle white;
+        font-size: 24px;}
+
+
+body h1, body p {
+  margin-top: 80px;
+  text-align: center;
+} 
+  
+.me{  color: white;        text-align: center;
+        font:bold;
+        font-size: 80px;}
+
+.bio{   font-size: 30px;
+        color: black;
+        text-align: center;
+        background-color: white;
+        padding: 28px;
+        border-radius: 6px;
+        opacity: 70%;
+}
+
+.text {font-size: 30px;
+        color: black;
+        text-align: center;
+        background-color: white;
+        padding: 20px;
+        border-radius: 6px;
+        opacity: 70%}
+
+.contato {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #000; /* fundo preto */
+  color: white;
+}
+
+/* Container dos ícones */
+.contato-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* espaço entre os ícones */
+}
+
+/* Ícones */
+.contato-links img {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  filter: brightness(0) invert(1); /* deixa ícones brancos se forem coloridos */
+}
+
+.contato-links img:hover {
+  transform: scale(1.1);
+}
